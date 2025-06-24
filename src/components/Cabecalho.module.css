@@ -7,6 +7,12 @@ Isso, vai te obrigar a usar a classe através de sintaxe de array com colchetes.
   background-color: #20232a;
   color: #61dafb;
   padding: 1rem;
+
+  hr {
+    border: none;
+    border-top: 1px solid;
+    margin: 0.4rem 0;
+  }
 }
 
 .titulo {
@@ -22,3 +28,10 @@ Isso, vai te obrigar a usar a classe através de sintaxe de array com colchetes.
   margin-right: 0.2rem;
   width: 42px;
 }
+
+/* Classe/Seletor Descendente:
+Formata os links contidos na classe do header 
+.topoSite a {
+  text-decoration: none;
+  color: yellowgreen;
+} */
