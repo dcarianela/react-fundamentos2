@@ -1,0 +1,10 @@
+/* Evite nomear as classes usando hífen:
+Exemplo: topo-site{}
+Isso, vai te obrigar a usar a classe através de sintaxe de array com colchetes. */
+
+/* Prefira usar a sintaxe camelCase (ou snake_case: .topo_site) */
+.topoSite {
+  background-color: #20232a;
+  color: #61dafb;
+  padding: 1rem;
+}
