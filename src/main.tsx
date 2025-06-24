@@ -8,6 +8,9 @@ import { createRoot } from "react-dom/client";
 // O componente App é o ponto de entrada da aplicação React
 import App from "./App.tsx";
 
+// Importando a folha de estilos CSS global
+import "./global.css";
+
 // Seleciona o elemento HTML root, cria a raiz da aplicação e renderiza o componete App.
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
