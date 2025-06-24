@@ -8,3 +8,17 @@ Isso, vai te obrigar a usar a classe através de sintaxe de array com colchetes.
   color: #61dafb;
   padding: 1rem;
 }
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.logo {
+  vertical-align: middle;
+  margin-right: 0.2rem;
+  width: 42px;
+}
