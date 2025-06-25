@@ -1,8 +1,9 @@
-import Artigo from "./Artigo";
+import Artigo from "../Artigo/Artigo";
+import estilos from "./Conteudo.module.css";
 
 export default function Conteudo() {
   return (
-    <main>
+    <main className={estilos.conteudo}>
       <section>
         <h2>Seja bem-vindo(a) aos Fundamentos de React</h2>
         <p>Este é um exemplo da aplicação React.</p>

@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+
+  a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+
+    &:hover,
+    &:focus {
+      color: white;
+      transform: scale(1.1);
+    }
+  }
+}
