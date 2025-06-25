@@ -2,14 +2,14 @@
   padding: 1rem;
   max-width: 800px;
   margin: auto;
+}
 
-  section {
-    background-color: #fff;
-    padding: 1rem;
+.principal {
+  background-color: #fff;
+  padding: 1rem;
 
-    h2 {
-      color: #007acc;
-    }
+  h2 {
+    color: #007acc;
   }
 }
 
@@ -18,5 +18,5 @@
 }
 
 .sombra {
-  box-shadow: rgba(0, 0, 0, 0.27);
+  box-shadow: rgba(0, 0, 0, 0.27) 2px 2px 8px;
 }
