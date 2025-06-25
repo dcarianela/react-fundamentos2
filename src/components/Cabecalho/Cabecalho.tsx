@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.png";
-import Menu from "../Menu/Menu";
+import Menu from "./Menu/Menu";
 
 /* Importando o módulo CSS para o componente Cabecalho */
 import estilos from "./Cabecalho.module.css";
