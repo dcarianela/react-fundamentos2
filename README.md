@@ -1,5 +1,7 @@
 # Fundamentos de React
 
+Props basicamente são uma forma de comunicação
+
 ## 06_styled-components
 
 Styled Components é uma biblioteca (lib) muito usada com projetos React que permite escrever estilos CSS dentro do JavaScript usando a própria sintaxe do CSS. Os estilos ficam acoplados ao componente em que foram declarados.
