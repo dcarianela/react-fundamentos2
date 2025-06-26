@@ -1,6 +1,36 @@
 # Fundamentos de React
 
-Props basicamente são uma forma de comunicação
+## 08_props
+
+Props (abreviação de properties/propriedades) são parâmetros que um componente pode receber.
+
+Elas funcionam como argumentos de uma função, que podem receber dados de um componente pai para um componente filho.
+
+Props basicamente são uma forma de comunicação entre componentes.
+
+- Criação de props e definição de tipos para as props
+- Desestruturação de props
+- Manipulação de props opcionais
+- Renderização condicional
+
+## 07_tailwindcss
+
+**Tailwind CSS** é um framework CSS utilitário que permite estilizar elementos diretamente no HTML, usando classes pré-definidas. Em vez de escrever CSS personalizado, você aplica estilos combinando classes como `bg-blue-500`, `text-center`, `p-4`, etc.
+
+### Vantagens do Tailwind:
+
+- **Produtividade**: agiliza o desenvolvimento, evitando ir e voltar entre HTML e arquivos CSS.
+- **Consistência visual**: promove um design coeso por usar um sistema padronizado de cores, espaçamentos e tipografia.
+- **Customização fácil**: o `tailwind.config.js` permite ajustar temas, cores, breakpoints e mais.
+- **Evita classes genéricas**: como você aplica os estilos diretamente nas classes, reduz a necessidade de inventar nomes para cada estilo.
+- **Menos CSS final**: com ferramentas como `PurgeCSS`, o CSS final pode conter apenas o que foi usado de fato, diminuindo o tamanho do arquivo.
+
+É especialmente útil em projetos modernos com componentes (como React ou Vue), onde o estilo fica acoplado ao markup.
+
+### Sites importantes
+
+- Site oficial: https://tailwindcss.com/
+- Documentação para uso com Vite: https://tailwindcss.com/docs/installation/using-vite
 
 ## 06_styled-components
 
