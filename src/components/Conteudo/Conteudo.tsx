@@ -17,7 +17,7 @@ export default function Conteudo() {
         <Saudacao nome="Kobeni" classe="bg-red-100" />
         <p>Este é um exemplo da aplicação React.</p>
 
-        <Artigo titulo="Front-End" numero={1}>
+        <Artigo titulo="Front-End" numero={1} data={new Date()}>
           <p>Front-End</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
