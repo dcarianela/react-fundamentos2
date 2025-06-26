@@ -13,7 +13,7 @@ export default function Conteudo() {
       >
         <h2 className="font-bold text-lg">Fundamentos de React!</h2>
 
-        <Saudacao nome="Hayakawa" classe="bg-emerald-100" />
+        <Saudacao classe="bg-emerald-100" />
         <Saudacao nome="Kobeni" classe="bg-red-100" />
         <p>Este é um exemplo da aplicação React.</p>
 
