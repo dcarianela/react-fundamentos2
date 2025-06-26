@@ -1,5 +1,8 @@
 .artigo {
   margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-bottom: 4px solid #ccc;
 
   h3 {
     color: #1a501a;
