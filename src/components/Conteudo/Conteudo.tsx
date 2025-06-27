@@ -26,7 +26,7 @@ export default function Conteudo() {
           return (
             <button
               onClick={() => setCategoriaAtiva(categoria)}
-              className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-pink-300"
+              className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-blue-400"
             >
               {categoria}
             </button>
@@ -34,9 +34,17 @@ export default function Conteudo() {
         })}
 
         {categoriaAtiva && (
-          <p>
-            Categoria selecionada: <b>{categoriaAtiva}</b>
-          </p>
+          <>
+            <button
+              onClick={() => setCategoriaAtiva(null)}
+              className="px-2 py-1 rounded bg-red-300"
+            >
+              Limpar
+            </button>
+            <p>
+              Categoria selecionada: <b>{categoriaAtiva}</b>
+            </p>
+          </>
         )}
 
         <ListaCursos />
