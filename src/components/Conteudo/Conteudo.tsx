@@ -41,13 +41,10 @@ export default function Conteudo() {
             >
               Limpar
             </button>
-            <p>
-              Categoria selecionada: <b>{categoriaAtiva}</b>
-            </p>
           </>
         )}
 
-        <ListaCursos />
+        <ListaCursos categoria={categoriaAtiva} />
       </section>
 
       <DicaDoDia />
