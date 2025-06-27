@@ -18,6 +18,14 @@ export default function Conteudo() {
         <Saudacao nome="Kobeni" classe="bg-red-100" />
         <p>Este é um exemplo da aplicação React.</p>
 
+        {categorias.map((categoria) => {
+          return (
+            <button className="rounded py-1 px-2 mr-1 my-1 bg-amber-200 hover:bg-pink-300">
+              {categoria}
+            </button>
+          );
+        })}
+
         <ListaCursos />
       </section>
 
