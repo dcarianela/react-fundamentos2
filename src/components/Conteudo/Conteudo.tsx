@@ -3,11 +3,13 @@ import DicaDoDia from "./DicaDoDia/DicaDoDia";
 import estilos from "./Conteudo.module.css";
 import Saudacao from "./Saudacao";
 import ListaCursos from "./ListaCursos";
+import cursos from "../../data/cursos";
 
 export default function Conteudo() {
+  const categorias = [...new Set(cursos.map((curso) => curso.categoria))];
+
   return (
     <main className={estilos.conteudo}>
-      {/* Para combinar classes, use template string */}
       <section
         className={`${estilos.principal} ${estilos.arredondada} ${estilos.sombra}`}
       >
@@ -15,8 +17,6 @@ export default function Conteudo() {
 
         <Saudacao nome="Kobeni" classe="bg-red-100" />
         <p>Este é um exemplo da aplicação React.</p>
-
-        {/* Faça a lógica necessária para apresentar o componente Artigo e passar para ele os dados de cada curso proveniente de cursos. */}
 
         <ListaCursos />
       </section>
