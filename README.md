@@ -1,5 +1,19 @@
 # Fundamentos de React
 
+State (ou Estado) é uma funcionalidade especial de um componente que representa informações que podem mudar ao longo do tempo e que, normalmente, afetam o que é exibido na interface.
+
+Exemplos:
+
+- Contador de likes
+- Carrinho de compras
+- Captura de dados de formulário
+- Filtros
+- Timers
+- Alternância de temas/cores
+- Seleção de itens
+
+O uso de states permite ao React atualizar a interface automaticamente sempre que os dados mudarem, sem a necessidade de manipular o DOM manualmente.
+
 ## 10_manipulando-eventos
 
 No React, nós declaramos explicitamente o que queremos que o componente faça através de props de eventos.
