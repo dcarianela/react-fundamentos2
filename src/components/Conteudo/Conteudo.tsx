@@ -13,10 +13,8 @@ export default function Conteudo() {
   const [categoriaAtiva, setCategoriaAtiva] = useState<null | string>(null);
 
   return (
-    <main className={estilos.conteudo}>
-      <section
-        className={`${estilos.principal} ${estilos.arredondada} ${estilos.sombra}`}
-      >
+    <>
+      <section>
         <h2 className="font-bold text-lg">Fundamentos de React!</h2>
 
         <Saudacao nome="Kobeni" classe="bg-red-100" />
@@ -50,6 +48,6 @@ export default function Conteudo() {
       <DicaDoDia />
 
       <AvisoImportante />
-    </main>
+    </>
   );
 }
