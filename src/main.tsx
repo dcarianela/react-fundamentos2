@@ -11,9 +11,13 @@ import App from "./App.tsx";
 // Importando a folha de estilos CSS global
 import "./global.css";
 
-// Seleciona o elemento HTML root, cria a raiz da aplicação e renderiza o componete App.
+import { BrowserRouter } from "react-router-dom";
+
+/* O BrowserRouter deve envolver toda a aplicação, habilitando assim a navegação por rotas. */
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </StrictMode>
 );
