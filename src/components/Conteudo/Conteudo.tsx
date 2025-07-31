@@ -1,6 +1,5 @@
 import AvisoImportante from "./AvisoImportante/AvisoImportante";
 import DicaDoDia from "./DicaDoDia/DicaDoDia";
-import estilos from "./Conteudo.module.css";
 import Saudacao from "./Saudacao";
 import ListaCursos from "./ListaCursos";
 import cursos from "../../data/cursos";
